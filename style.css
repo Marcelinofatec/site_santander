@@ -1,0 +1,73 @@
+* {
+  margin: 0; /* zera a margin */
+  padding: 0; /* zera o  padding */
+}
+.caixa {
+  padding: 25px;
+}
+
+.logo {
+  width: 130px; /* largura */
+}
+.link-empresa {
+  color: #000000; /*troca a cor do texto */
+  margin-left: 30px; /* margem do lado esquerdo*/
+  font-size: 20px; /* tamanho da fonte */
+  cursor: pointer; /* troca o curso do mouse */
+}
+.link-empresa:hover {
+  text-decoration: underline; /* coloca sublinhado debaixo da letra*/
+}
+
+.link-voce {
+  color: #ff0000; /* troca a cor do texto */
+  margin-left: 30px; /* margem do lado esquerdo*/
+  font-size: 20px; /* tamanho da fonte */
+  font-weight: 700; /* grossura da fonte */
+  cursor: pointer; /* troca o curso do mouse */
+}
+
+.link-voce:hover {
+  text-decoration: underline; /* coloca sublinhado debaixo da letra*/
+}
+
+.background {
+  width: 100%; /* largura 100% */
+}
+
+h3 {
+  margin-left: 200px; /*margem do lado esquerdo*/
+  margin-top: 60px; /* margem em cima*/
+  font-size: 40px; /* tamanho da fonte */
+}
+
+ul {
+  display: flex;
+  justify-content: center; /* justifica tudo no centro */
+  gap: 30px; /* coloca espaçamento entre as imagem */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+li {
+  height: 150px; /* altura do elemento */
+  width: 150px; /* largura do elemento */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-top: 30px;
+  display: inline-block; /* coloca a imagem uma do lado da outra */
+}
+
+.imagem-produtos {
+  width: 60px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: left 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
